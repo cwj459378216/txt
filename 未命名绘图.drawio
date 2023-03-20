@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T06:59:45.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fpfkArazKYjhC9sbYvwW" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-20T07:06:15.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iw9k4q9p3Sr8qRMvaR-R" version="21.0.8" type="github">
   <diagram name="第 1 页" id="jvtiP2zmfGhM44auGgzO">
     <mxGraphModel dx="1509" dy="4112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -49,6 +49,12 @@
         </mxCell>
         <mxCell id="kvj7BzMSsoO9JfrWoFW5-17" value="/monitorCaptureSetting&lt;br&gt;参数：{&quot;id&quot;:0,&quot;realTime&quot;:true}&lt;br&gt;更新数据库接口，gui反显和底层读取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2310" width="455" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-21" target="kvj7BzMSsoO9JfrWoFW5-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-21" target="kvj7BzMSsoO9JfrWoFW5-79">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kvj7BzMSsoO9JfrWoFW5-21" value="/settings/monitoring&lt;br&gt;参数：{&quot;id&quot;:&quot;0&quot;,&quot;captureOptions&quot;:&quot;{\&quot;index\&quot;:0,\&quot;fileName\&quot;:\&quot;2023-03-20_14-06-03\&quot;,\&quot;fileSize\&quot;:64,\&quot;fileCount\&quot;:1,\&quot;duration\&quot;:0,\&quot;stopOnWrap\&quot;:false,&lt;br&gt;\&quot;performanceMode\&quot;:false,\&quot;fileType\&quot;:1,\&quot;filterId\&quot;:0,\&quot;enable\&quot;:true,&lt;br&gt;\&quot;pauseStatus\&quot;:1}&quot;}&lt;br&gt;gui 用于反显，&lt;b&gt;pauseStatus 为暂停状态，0Stop，1Resume，2Pause&lt;/b&gt;，filteName变化，enable 记录开关状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1770" y="200" width="455" height="100" as="geometry" />
@@ -140,6 +146,12 @@
         </mxCell>
         <mxCell id="kvj7BzMSsoO9JfrWoFW5-62" value="/thunder/config?sessionid=&lt;br&gt;参数：{&quot;zeek&quot;:{&quot;enable&quot;:false},&quot;apm&quot;:{&quot;enable&quot;:false},&quot;snort&quot;:{&quot;enable&quot;:false}}&lt;br&gt;enable 是关闭开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="390" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-78" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;pause/Stop&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-79" value="&lt;b&gt;Resume/start&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
