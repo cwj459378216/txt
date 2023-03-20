@@ -1,1 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T05:15:49.757Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.8" etag="9tJjbj-DEp3RSaEXX9tC" type="github"><diagram name="第 1 页" id="jvtiP2zmfGhM44auGgzO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-20T06:59:45.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fpfkArazKYjhC9sbYvwW" version="21.0.8" type="github">
+  <diagram name="第 1 页" id="jvtiP2zmfGhM44auGgzO">
+    <mxGraphModel dx="1509" dy="4112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-37" target="kvj7BzMSsoO9JfrWoFW5-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-37" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-10" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-7" target="kvj7BzMSsoO9JfrWoFW5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-7" target="kvj7BzMSsoO9JfrWoFW5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-7" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-10" target="kvj7BzMSsoO9JfrWoFW5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-10" value="realtime" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-11" target="kvj7BzMSsoO9JfrWoFW5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-11" value="pcap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-15" target="kvj7BzMSsoO9JfrWoFW5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1750" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-15" value="thunder/startCaptureOrStartSavePackets&lt;br&gt;参数：{&quot;index&quot;:0,&quot;port&quot;:&quot;0x1&quot;,&quot;options&quot;:{&quot;zeek&quot;:{&quot;enable&quot;:true},&quot;apm&quot;:{&quot;enable&quot;:true},&quot;snort&quot;:{&quot;enable&quot;:true}},&quot;chagg&quot;:false}&lt;br&gt;filter 为底层预留字段，index，port，chagg&lt;br&gt;是用户选择，options默认值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-30" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-16" target="kvj7BzMSsoO9JfrWoFW5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-16" value="/thunder/updateConf&lt;br&gt;参数：{&quot;module&quot;:2,&quot;options&quot;:{&quot;adapterIndex&quot;:0,&quot;adapterPorts&quot;:&quot;0x1&quot;,&quot;autoStart&quot;:true,&quot;chagg&quot;:false}}&lt;br&gt;module 更新模块，options底层需要写入文件的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-17" value="/monitorCaptureSetting&lt;br&gt;参数：{&quot;id&quot;:0,&quot;realTime&quot;:true}&lt;br&gt;更新数据库接口，gui反显和底层读取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2310" width="455" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-21" value="/settings/monitoring&lt;br&gt;参数：{&quot;id&quot;:&quot;0&quot;,&quot;captureOptions&quot;:&quot;{\&quot;index\&quot;:0,\&quot;fileName\&quot;:\&quot;2023-03-20_14-06-03\&quot;,\&quot;fileSize\&quot;:64,\&quot;fileCount\&quot;:1,\&quot;duration\&quot;:0,\&quot;stopOnWrap\&quot;:false,&lt;br&gt;\&quot;performanceMode\&quot;:false,\&quot;fileType\&quot;:1,\&quot;filterId\&quot;:0,\&quot;enable\&quot;:true,&lt;br&gt;\&quot;pauseStatus\&quot;:1}&quot;}&lt;br&gt;gui 用于反显，&lt;b&gt;pauseStatus 为暂停状态，0Stop，1Resume，2Pause&lt;/b&gt;，filteName变化，enable 记录开关状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="200" width="455" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-22" target="kvj7BzMSsoO9JfrWoFW5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-22" value="thunder/startCaptureOrStartSavePackets&lt;br&gt;参数：{&quot;index&quot;:0,&quot;options&quot;:{&quot;savePacket&quot;:{&quot;duration&quot;:0,&quot;enable&quot;:true,&quot;fileCount&quot;:1,&quot;fileName&quot;:&quot;111&quot;,&lt;br&gt;&quot;fileSize&quot;:64,&quot;stopOnWrap&quot;:false,&quot;fileType&quot;:1,&quot;performanceMode&quot;:false}},&lt;br&gt;&quot;port&quot;:&quot;0x1&quot;,&quot;chagg&quot;:false}&lt;br&gt;filter 为底层预留字段，index，port，chagg&lt;br&gt;是用户选择，options默认值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="170" width="460" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-24" value="/thunder/config?sessionid=&lt;br&gt;参数：{&quot;savePacket&quot;:{&quot;enable&quot;:false}}&lt;br&gt;enable 是关闭开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="870" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-25" value="/thunder/config?sessionid=&lt;br&gt;参数：{&quot;zeek&quot;:{&quot;enable&quot;:false},&quot;apm&quot;:{&quot;enable&quot;:false},&quot;snort&quot;:{&quot;enable&quot;:false}}&lt;br&gt;enable 是关闭开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="660" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-27" target="kvj7BzMSsoO9JfrWoFW5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-27" value="/thunder/updateConf&lt;br&gt;参数：{&quot;module&quot;:2,&quot;options&quot;:{&quot;adapterIndex&quot;:0,&quot;adapterPorts&quot;:&quot;0x1&quot;,&quot;autoStart&quot;:false,&quot;chagg&quot;:false}}&lt;br&gt;module 更新模块，options底层需要写入文件的数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="660" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-28" value="/monitorCaptureSetting&lt;br&gt;参数：{&quot;id&quot;:0,&quot;realTime&quot;:false}&lt;br&gt;更新数据库接口，gui反显和底层读取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="660" width="455" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-29" value="/settings/monitoring&lt;br&gt;参数：{&quot;id&quot;:&quot;0&quot;,&quot;captureOptions&quot;:&quot;{\&quot;index\&quot;:0,\&quot;fileName\&quot;:\&quot;2023-03-20_14-06-03\&quot;,\&quot;fileSize\&quot;:64,\&quot;fileCount\&quot;:1,\&quot;duration\&quot;:0,\&quot;stopOnWrap\&quot;:false,&lt;br&gt;\&quot;performanceMode\&quot;:false,\&quot;fileType\&quot;:1,\&quot;filterId\&quot;:0,\&quot;enable\&quot;:false,&lt;br&gt;\&quot;pauseStatus\&quot;:1}&quot;}&lt;br&gt;gui 用于反显，&lt;b&gt;pauseStatus 为暂停状态，0Stop，1Resume，2Pause&lt;/b&gt;，filteName变化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="860" width="455" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-39" target="kvj7BzMSsoO9JfrWoFW5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-39" target="kvj7BzMSsoO9JfrWoFW5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-39" value="stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="770" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-40" target="kvj7BzMSsoO9JfrWoFW5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-40" value="realtime" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-41" target="kvj7BzMSsoO9JfrWoFW5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-41" value="pcap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-57" target="kvj7BzMSsoO9JfrWoFW5-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-57" target="kvj7BzMSsoO9JfrWoFW5-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-57" value="其中一个已经开启" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-58" target="kvj7BzMSsoO9JfrWoFW5-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-58" value="realtime" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-59" target="kvj7BzMSsoO9JfrWoFW5-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-59" value="pcap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.456;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-60" target="kvj7BzMSsoO9JfrWoFW5-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-60" value="/thunder/config?sessionid=&lt;br&gt;参数：{&quot;savePacket&quot;:{&quot;enable&quot;:true}}&lt;br&gt;enable 是关闭开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="510" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvj7BzMSsoO9JfrWoFW5-62" target="kvj7BzMSsoO9JfrWoFW5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvj7BzMSsoO9JfrWoFW5-62" value="/thunder/config?sessionid=&lt;br&gt;参数：{&quot;zeek&quot;:{&quot;enable&quot;:false},&quot;apm&quot;:{&quot;enable&quot;:false},&quot;snort&quot;:{&quot;enable&quot;:false}}&lt;br&gt;enable 是关闭开关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="390" width="470" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
